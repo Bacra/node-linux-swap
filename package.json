@@ -1,0 +1,29 @@
+{
+  "name": "linux-swap",
+  "version": "0.0.1",
+  "description": "Get process swap usage in Linux.",
+  "main": "swap.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Bacra/node-linux-swap.git"
+  },
+  "scripts": {
+    "test": "node test/test"
+  },
+  "keywords": [
+    "linux",
+    "swap",
+    "memory"
+  ],
+  "author": "Bacra Woo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bacra/node-linux-swap/issues"
+  },
+  "homepage": "https://github.com/Bacra/node-linux-swap",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "filesize-parser": "^1.2.0",
+    "procfs-stats": "0.0.4"
+  }
+}
